@@ -1,0 +1,5 @@
+﻿sample2.jpg
+sample5.png
+sample6.jpg
+sample7.jpg
+sample8.jpg

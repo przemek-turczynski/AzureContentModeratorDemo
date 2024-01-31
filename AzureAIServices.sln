@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ContentModerator", "ContentModerator", "{4D3FA984-BF7E-4954-9B33-15989DC1E09E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImageModeration", "ContentModerator\ImageModeration\ImageModeration.csproj", "{80F1C688-9759-4761-9448-56A819CAF17C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TextModeration", "ContentModerator\TextModeration\TextModeration.csproj", "{540EC6F2-F92B-485D-9FB7-DD16A63EBCD1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ContentSafety", "ContentSafety", "{F42BC047-4F3D-4694-9B04-790AB8CC9910}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextModeration", "ContentSafety\TextModeration\TextModeration.csproj", "{AA9F9925-0435-4677-9134-AF0B60B2BC6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageModeration", "ContentSafety\ImageModeration\ImageModeration.csproj", "{3374FD3F-1F84-4A8F-97F1-8272ED50F52D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{80F1C688-9759-4761-9448-56A819CAF17C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80F1C688-9759-4761-9448-56A819CAF17C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80F1C688-9759-4761-9448-56A819CAF17C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80F1C688-9759-4761-9448-56A819CAF17C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{540EC6F2-F92B-485D-9FB7-DD16A63EBCD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{540EC6F2-F92B-485D-9FB7-DD16A63EBCD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{540EC6F2-F92B-485D-9FB7-DD16A63EBCD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{540EC6F2-F92B-485D-9FB7-DD16A63EBCD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA9F9925-0435-4677-9134-AF0B60B2BC6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA9F9925-0435-4677-9134-AF0B60B2BC6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA9F9925-0435-4677-9134-AF0B60B2BC6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA9F9925-0435-4677-9134-AF0B60B2BC6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3374FD3F-1F84-4A8F-97F1-8272ED50F52D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3374FD3F-1F84-4A8F-97F1-8272ED50F52D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3374FD3F-1F84-4A8F-97F1-8272ED50F52D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3374FD3F-1F84-4A8F-97F1-8272ED50F52D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{80F1C688-9759-4761-9448-56A819CAF17C} = {4D3FA984-BF7E-4954-9B33-15989DC1E09E}
+		{540EC6F2-F92B-485D-9FB7-DD16A63EBCD1} = {4D3FA984-BF7E-4954-9B33-15989DC1E09E}
+		{AA9F9925-0435-4677-9134-AF0B60B2BC6C} = {F42BC047-4F3D-4694-9B04-790AB8CC9910}
+		{3374FD3F-1F84-4A8F-97F1-8272ED50F52D} = {F42BC047-4F3D-4694-9B04-790AB8CC9910}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {41AEA007-198B-4A0A-A11C-E08558772C41}
+	EndGlobalSection
+EndGlobal
